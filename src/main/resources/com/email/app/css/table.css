@@ -1,0 +1,28 @@
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #d4d6d7;
+    -fx-size: 35px;
+    -fx-font-family: Arial;
+    -fx-border-color: -fx-box-border;
+    -fx-border-width: 0 1 3 0;
+    -fx-border-insets: 0;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: black;
+    -fx-alignment: CENTER;
+}
+
+.table-view .table-cell {
+    -fx-padding: 0.5em; /* 2px, plus border adds 1px */
+    -fx-background-color: transparent;
+    -fx-border-color: transparent -fx-table-cell-border-color -fx-table-cell-border-color transparent;
+    -fx-alignment: center;
+    -fx-table-cell-border-color: transparent;
+    -fx-cell-size: 3.3em; /* 24 */
+    -fx-text-fill: black;
+    -fx-font-size: 14;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #55a9ef;
+}
