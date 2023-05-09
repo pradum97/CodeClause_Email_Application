@@ -1,7 +1,5 @@
 package com.email.app.model;
-import javafx.application.Platform;
 
-import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
 import javax.mail.Store;
 import java.util.Properties;

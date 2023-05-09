@@ -1,8 +1,8 @@
 package com.email.app.controller.services;
 
 
-import com.email.app.model.EmailTreeItem;
 import com.email.app.IconResolver;
+import com.email.app.model.EmailTreeItem;
 import javafx.concurrent.Service;
 import javafx.concurrent.Task;
 

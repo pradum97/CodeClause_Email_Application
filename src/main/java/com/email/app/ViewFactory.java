@@ -1,6 +1,5 @@
 package com.email.app;
 
-import com.barosanu.controller.*;
 import com.email.app.controller.*;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

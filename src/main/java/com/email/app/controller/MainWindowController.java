@@ -1,11 +1,11 @@
 package com.email.app.controller;
 
 import com.email.app.EmailManager;
+import com.email.app.ViewFactory;
 import com.email.app.controller.services.MessageRendererService;
 import com.email.app.model.EmailMessage;
 import com.email.app.model.EmailTreeItem;
 import com.email.app.model.SizeInteger;
-import com.email.app.ViewFactory;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
